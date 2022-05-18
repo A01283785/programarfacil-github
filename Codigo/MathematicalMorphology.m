@@ -12,7 +12,7 @@ imshow(f,[]);
 
 se = strel('disk',5);
 BW2 = imdilate(f,se);
-imshow(BW2), title('dilated');
+imshow(BW2), title('dilated')
 % Use different disk size
 %% Erosion
 
@@ -54,7 +54,7 @@ imshow(I)
 % contain the structuring element. Define a disk-shaped structuring element with 
 % a radius of 15, which fits entirely inside a single grain of rice.
 
-se = strel('disk',15);
+se = strel('disk',15)
 %% 
 % To perform the morphological opening, use |imopen| with the structuring element.
 
